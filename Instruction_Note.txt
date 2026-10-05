@@ -1,0 +1,21 @@
+Smart File Organizer — How to Use
+
+This little program automatically sorts the files in your Downloads folder into folders like Images, Documents, Videos, Music, Archives, and Other.
+
+How to run it:
+Double-click File_Organizer.exe
+A black window will pop up. This is normal — it's just the program running.
+It will show the folder it's about to organize and ask: Continue? (y/n):
+Type y and press Enter to proceed, or n to cancel without changing anything.
+It will list each file as it moves it, like: Moved photo.jpg -> Images
+When it's done, it'll show how many files were moved.
+Press Enter to close the window.
+
+A few things to know:
+It only organizes your Downloads folder — nothing else on your computer.
+It won't touch folders that are already there, only loose files.
+If two files have the same name, it won't overwrite one — it'll rename the new one automatically (e.g. notes (1).pdf).
+If Windows shows a blue "Windows protected your PC" warning the first time you open it, click More info, then Run anyway. This happens because the program isn't officially registered with Microsoft — it's safe.
+
+Tip:
+Try it once and check the results in your Downloads folder. If everything looks right, you can run it anytime your downloads folder gets messy.
