@@ -15,29 +15,29 @@ It was also packaged into a standalone .exe using PyInstaller, so it can be run 
 * No dependencies — uses only Python's standard library
 
 ## How It Works
-The script prints the folder it's about to organize and asks the user to confirm with y or n.
-It scans every item in the target folder using os.listdir().
-Folders are skipped — only files are processed.
-Each file's extension is checked against a categories dictionary to determine where it belongs; anything unmatched goes to Other.
-The destination folder is created automatically if it doesn't already exist, using os.makedirs().
-If a file with the same name already exists at the destination, the script renames the incoming file instead of overwriting it.
-The file is moved using shutil.move(), and a confirmation line is printed for each one.
-A final count of moved files is shown, and the program pauses so the output can be read before the window closes.
+* The script prints the folder it's about to organize and asks the user to confirm with y or n.
+* It scans every item in the target folder using os.listdir().
+* Folders are skipped — only files are processed.
+* Each file's extension is checked against a categories dictionary to determine where it belongs; anything unmatched goes to Other.
+* The destination folder is created automatically if it doesn't already exist, using os.makedirs().
+* If a file with the same name already exists at the destination, the script renames the incoming file instead of overwriting it.
+* The file is moved using shutil.move(), and a confirmation line is printed for each one.
+* A final count of moved files is shown, and the program pauses so the output can be read before the window closes.
 
 ## For Non-Technical Users (No Python Needed)
-Download the file. Click on simple_organizer.exe in this repository, then click the Download button.
-Double-click the file to run it.
-A black window will pop up — this is normal, it's just the program running.
-It will show you the folder it's about to organize and ask:
+* Download the file. Click on simple_organizer.exe in this repository, then click the Download button.
+* Double-click the file to run it.
+* A black window will pop up — this is normal, it's just the program running.
+* It will show you the folder it's about to organize and ask:
 
    Continue? (y/n):
    click y and get your things done
    
 ## A Few Things to Know
-The program only organizes your Downloads folder — it won't touch anything else on your computer.
-It never overwrites a file. If two files have the same name, the new one is renamed automatically (e.g. notes (1).pdf).
-If Windows shows a blue "Windows protected your PC" warning the first time you open it, click More info, then Run anyway. This happens because the app isn't registered with Microsoft — it's safe, since you can see the full source code in this repository.
-No installation needed — just double-click and go.
+* The program only organizes your Downloads folder — it won't touch anything else on your computer.
+* It never overwrites a file. If two files have the same name, the new one is renamed automatically (e.g. notes (1).pdf).
+* If Windows shows a blue "Windows protected your PC" warning the first time you open it, click More info, then Run anyway. This happens because the app isn't registered with Microsoft — it's safe, since you can see the full source code in this repository.
+* No installation needed — just double-click and go.
 
 ## Getting started
 Python 3.x (no external libraries needed)
